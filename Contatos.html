@@ -1,0 +1,127 @@
+<! Doctype html>
+<Html>
+<Html  lang = "pt-br" >
+<Head>
+	<Meta  charset = "UTF-8" >
+	<Title> Layout de htm5 </ title>
+	<Style type = "text / css" >
+		#wrapper {
+		   width : 900px ; 
+		   height : 600px ; 
+		   border : 1px  sólida  # eeeaf1 ;
+		}
+ 
+		header , nav , conteúdo , rodapé , artigo  { 
+		   margem :  5px ;
+		}
+ 
+		p  {
+			text-align :  center ;
+		}	
+			
+		header {
+		   height :  150px ; 
+		   background-color :  #ccc ;
+		}
+ 
+		nav  {
+		   width : 200px ; 
+		   height :  520px ; 
+		   background-color :  #ccc ; 
+		}
+ 
+		de lado  {
+		   clara :  ambos ; 
+		   flutuar :  direito ;  
+		   width : 100px ; 
+		   height :  520px ; 
+		   background-color :  #ccc ; 
+		}
+		
+		conteúdo { 			 
+		   flutuar :  esquerda ; 
+		   width : 900px ;
+		   height :  500px ; 		   
+		   background-color :  #FFF ; 
+		}
+ 
+		artigo {
+		   height :  150px ; 
+		   width :  470px ; 
+		   background-color :  #ccc ;
+		}
+ 
+		footer {
+			/ * Width: 890px; * /
+			height :  100px ; 
+			clara :  ambos ; 
+			background-color :  #ccc ;	   
+		}
+	</ Style>	
+</ Head>
+ 
+<Body>
+	<Div  id = "wrapper" >
+		<Header> <p> Cabeçalho </ p> </ header>		
+		<Content>
+			<Article> <p>  <h1> Formulário </ h1> </ p>
+			
+			<Form  name = "fale_conosco"  method = "post"  action = "fale_conosco.php" >
+			<Table  width = "500"  border = "0" >
+			  <Tr> 
+				<Td  height = "20"  width = "83" > 
+				  <Div  align = "center" > Nome: </ div>         </ td>
+				<Td  height = "20"  width = "407" > 
+				  <Div  align = "left" > 
+					<Input  type = "text"  name = "nome" >
+				  </ Div>         </ td>
+			  </ Tr>
+			  <Tr> 
+				<Td  height = "20"  width = "83" > 
+				  <Div  align = "center" > E-mail </ div>         </ td>
+				<Td  height = "20"  width = "407" > 
+				  <Div  align = "left" > 
+					<Input  type = "text"  name = "email" >
+				  </ Div>         </ td>
+			  </ Tr>
+			  <Tr> 
+				<Td  height = "20"  width = "83" > 
+				  <Div  align = "center" > Assunto: </ div>         </ td>
+				<Td  height = "20"  width = "407" > 
+				  <Div  align = "left" > 
+					<Input  type = "text"  name = "ASSUNTO" >
+				  </ Div>         </ td>
+			  </ Tr>
+			  <Tr> 
+				<Td  height = "20"  width = "83" > 
+				  <Div  align = "center" > </ div>         </ td>
+				<Td  height = "20"  width = "407" > 
+				  <Div   align = "left" > MENSAGEM: </ div>         </ td>
+			  </ Tr>
+			  <Tr> 
+				<Td  height = "20"  width = "83" > & nbsp; </ td>
+				<Td  height = "20"  width = "407" > 
+				  <Div  align = "left" >
+					<Textarea  name = "MENSAGEM"  cols = "25"  linhas = "5" > </ textarea>
+				  </ Div>         </ td>
+			  </ Tr>
+			  <Tr>
+				<Td  height = "20"  width = "83" > & nbsp; </ td>
+				<Td  height = "20"  width = "407" >
+				  <Div  align = "left" >
+					<Input  type = "submit"  name = "Enviar"  value = "Enviar" >
+					<Input  type = "reset"  name = "Submit2"  value = "APAGAR" >
+				  </ Div>         </ td>
+			  </ Tr>
+			</ Table>
+		  </ Form>
+			
+			
+			
+			</ Article>
+		</ Content>
+		
+		<Footer> <p> Rodapé </ p> </ footer>
+	</ Div>  
+</ Body>
+</ Html>
